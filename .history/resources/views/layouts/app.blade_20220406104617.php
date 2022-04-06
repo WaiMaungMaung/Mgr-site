@@ -42,8 +42,7 @@
             .navbar .megamenu {
                 left: 0;
                 right: 0;
-                width: 100%;
-
+                width: 120%;
                 margin-top: 0;
             }
 

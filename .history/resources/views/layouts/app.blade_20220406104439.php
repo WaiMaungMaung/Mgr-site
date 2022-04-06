@@ -25,7 +25,6 @@
             top: 50%;
             left: 30%;
             transform: translate(-50%, -50%);
-            color: red;
         }
 
         .navbar .megamenu {
@@ -43,7 +42,6 @@
                 left: 0;
                 right: 0;
                 width: 100%;
-
                 margin-top: 0;
             }
 

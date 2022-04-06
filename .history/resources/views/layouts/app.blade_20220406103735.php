@@ -14,19 +14,9 @@
 
     <title>Hello, world!</title>
     <style type="text/css">
-        .img-container {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-
-        .top-left {
-            position: absolute;
-            top: 50%;
-            left: 30%;
-            transform: translate(-50%, -50%);
-            color: red;
-        }
+        /* .bg-img {
+            width: 100%;
+        } */
 
         .navbar .megamenu {
             padding: 1rem;
@@ -43,7 +33,6 @@
                 left: 0;
                 right: 0;
                 width: 100%;
-
                 margin-top: 0;
             }
 

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <div id="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Brand</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
@@ -19,8 +19,6 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat.
-
-                            <a href="www.google.com">google</a>
                         </div> <!-- dropdown-mega-menu.// -->
                     </li>
                 </ul>
@@ -38,10 +36,15 @@
         </div> <!-- container-fluid.// -->
     </nav>
 
-    <div id="container img-container">
-        <img src="{{ url('/img/bg.jpg') }}" class="img-fluid" alt="">
-        <div class="top-left">
-            <h1>MGR bla bla</h1>
+    <div id="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, est aut? Amet beatae, ex velit laudantium
+                eos asperiores saepe eum alias fuga officiis doloremque, iusto inventore quidem ipsum corrupti
+                doloribus.
+            </div>
+            <div class="col-md-8"><img src="{{ url('/img/bg.jpg') }}" alt=""></div>
         </div>
 
     </div>
