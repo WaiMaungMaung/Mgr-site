@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <div id="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Brand</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
@@ -38,14 +38,9 @@
 
     <div id="container">
         <div class="row">
-            <div class="col-md-4">
-
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, est aut? Amet beatae, ex velit laudantium
-                eos asperiores saepe eum alias fuga officiis doloremque, iusto inventore quidem ipsum corrupti
-                doloribus.
-            </div>
-            <div class="col-md-8"><img src="{{ url('/img/Canon.jpeg') }}" alt=""></div>
+            <div class="col-4"></div>
+            <div class="col8"></div>
         </div>
-
+        <img src="{{ url('/img/Canon.jpeg') }}" alt="">
     </div>
 </div>
